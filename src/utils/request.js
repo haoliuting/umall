@@ -63,3 +63,23 @@ export const reqgoodsList = () => {
         }
     })
 }
+//cate列表
+export const reqcateList = () => {
+    return axios({
+        url: baseUrl+"/api/catelist",
+        method: "get",
+        params: {
+            istree: true
+        }
+    })
+}
+//banner列表
+export const reqbannerList = () => {
+    return axios({
+        url: baseUrl+"/api/bannerlist",
+        method: "get",
+        params: {
+            istree: true
+        }
+    })
+}
