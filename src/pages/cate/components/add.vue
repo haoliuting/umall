@@ -1,6 +1,6 @@
 <template>
   <div>
-      分类123
+      123
   </div>
 </template>
 
@@ -10,6 +10,6 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 
 </style>
