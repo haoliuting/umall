@@ -53,3 +53,14 @@ export const reqMenuList = () => {
         }
     })
 }
+
+//cate列表
+export const reqcateList = () => {
+    return axios({
+        url: baseUrl+"/api/catelist",
+        method: "get",
+        params: {
+            istree: true
+        }
+    })
+}
