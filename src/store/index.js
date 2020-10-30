@@ -8,6 +8,7 @@ import { state, mutations, getters } from "./mutations"
 
 import order from "./modules/order"
 import cate from "./modules/cate"
+import banner from "./modules/banner"
 //创建仓库
 const store = new Vuex.Store({
     //根级别下的state,mutations,getters,actions,比如用户登录后的用户信息
@@ -23,7 +24,8 @@ const store = new Vuex.Store({
     //模块
     modules:{
         order,
-        cate
+        cate,
+        banner
     }
 
 })

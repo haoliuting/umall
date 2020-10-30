@@ -64,3 +64,13 @@ export const reqcateList = () => {
         }
     })
 }
+//banner列表
+export const reqbannerList = () => {
+    return axios({
+        url: baseUrl+"/api/bannerlist",
+        method: "get",
+        params: {
+            istree: true
+        }
+    })
+}
