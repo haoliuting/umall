@@ -1,21 +1,9 @@
-# umall_admin
+### 1.菜单管理  ok 
 
-> A Vue.js project
+### 2.商品管理 
 
-## Build Setup
+​	添加 ok 
 
-``` bash
-# install dependencies
-npm install
+​	删除 ok
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+​	目前正在处理编辑 
