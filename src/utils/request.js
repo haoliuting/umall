@@ -53,3 +53,14 @@ export const reqMenuList = () => {
         }
     })
 }
+
+//banner列表
+export const reqbannerList = () => {
+    return axios({
+        url: baseUrl+"/api/bannerlist",
+        method: "get",
+        params: {
+            istree: true
+        }
+    })
+}
