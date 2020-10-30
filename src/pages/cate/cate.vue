@@ -1,6 +1,6 @@
 <template>
   <div>
-      分类
+      分类123
   </div>
 </template>
 

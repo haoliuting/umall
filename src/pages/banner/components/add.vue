@@ -1,6 +1,6 @@
 <template>
   <div>
-      轮播图123
+      add
   </div>
 </template>
 
@@ -10,6 +10,6 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 
 </style>
